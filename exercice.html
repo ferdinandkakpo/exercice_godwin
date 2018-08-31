@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <meta charset="utf-8">
+          <style>
+            .card{
+    padding: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+    position:relative;
+     margin-top: 10px;
+    border-radius: 5px 5px;
+    font-family: tahoma;
+    font-size: 40px;
+    color:#dd2c00;
+    width: 50%
+            }
+            .avatar{
+    padding: 25px 25px;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+    
+            	}
+.thumbnail{
+  border: 1px solid #ddd; 
+  border-radius: 4px;  
+  padding: 5px; 
+  width: 240px; 
+            	}
+.biziye
+{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    color: #000000;
+    padding-left:100px;
+}
+.hero
+{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/ferdizz.jpg");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+width: 50%
+}
+
+.hero-text
+{
+   font-size: 18px;
+   font-weight:bold;
+   color: #dd2c00;
+  font-family: tahoma;
+}
+.items
+{
+ content: "";
+ margin: 0 0 40px;
+ overflow: hidden;
+ margin-top: 10px;
+ background: #ffffff;
+ box-shadow: 0 0 10px rgba(0,0,0,0.3);
+ width: 50%;
+}
+.biziye::first-letter
+{
+   content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 5px solid red;
+}
+.items1
+{
+   border: 1px solid ;
+    height: 40px;
+    padding: 15px
+}
+.nom_avatar
+{
+margin-top:-400px;
+ font-size: 5px; 
+  line-height: 43px; 
+  left:-4px;   
+}
+.items2 {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+.conteneur
+{
+display: flex;
+flex-direction: row;
+justify-content: flex-start; 
+align-items: center;
+
+}
+.monbadge{
+
+  background:#bfd70e;
+  border-radius:20%;
+  border:2px solid #679403; 
+  margin-left:600px;
+  padding: 5px;
+
+}
+        </style>
+        <title>Exercice</title>
+        </head>
+    <body>
+<!-- Card -->
+
+<div class="row">
+    <div class="card">
+          <span class="">Je suis un card</span>
+          <p>Exercice sur les composants</p>
+    </div>
+  </div>     
+<!-- avatar -->
+   <div class="conteneur">  
+   	<div class="">  
+   <img src="img/ferdi.jpg" alt="Avatar" class="avatar"> </div>
+      
+      <div class="hero-text"> <span>I am a web developper</span></div>
+   
+   </div>
+         </div>  
+
+<!-- thumbnail -->
+<div class="thumbnail">
+  <a href="#" ><img src="img/ferdi.jpg"/></a>
+</div>
+
+<!-- hero -->
+  <div class="hero">
+  <div class="hero-text">
+    <h1>Mon nom est Ferdinand kpatenon</h1>
+    <p>Je suis un développeur</p>
+    <p>Je travail à Biziye</p>
+    <p>J'habite à Totsi</p>
+ 
+  </div>
+</div> 
+<!-- liste items -->
+<div class="items">
+   <ul class="items2" >
+  <li class="items1">Anana <span class="monbadge">1</span></li>
+  
+  <li class="items1">Apple <span class="monbadge">2</span></li>
+  
+  <li class="items1">Mangu   <span class="monbadge">3</span></li>
+  
+  </div>          
+<!-- Biziye title -->
+<div class="biziye">
+<h>BIZIYE</h>
+</div>
+
+
+
+
+</body>
+</html>
